@@ -1,7 +1,16 @@
 export const contact = [
-  "github", "linkedin", "facebook", "instagram"
-]
-
+  {
+  github: "github", linkedin: "linkedin", facebook: "facebook", instagram: "instagram"
+  },
+  {
+  title: "Phone",
+    contact: "123-456-7890"
+  },
+  {
+    title: "Email",
+    contact: "rlaquea14@gmail.com"
+  }
+];
 
 export const projects = [
   {
@@ -46,5 +55,7 @@ export const testimonials = [
 ]
 
 export const skills = 
-['Javascript', 'React', 'Python', 'Django', 'Node'];
-
+[ {
+  Javascript: "Javascript", Python: "Python", HTML: "HTML", CSS: "CSS", React: "React", Node: "Node", Django: "Django", Tailwind: "Tailwind", Bootstrap: "Bootstrap", Materialize: "Materialize", Git: "Git", Github: "Github", Heroku: "Heroku", Netlify: "Netlify"
+}
+]
