@@ -1,5 +1,11 @@
 'use client'
 
+export const about = [ {  
+  title: "Hi, I'm Reed.",
+  subtitle: "I love to build amazing apps.",          
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?"
+  }
+];
 export const contact = [
   {
   github: "github", linkedin: "linkedin", facebook: "facebook", instagram: "instagram"
@@ -60,4 +66,23 @@ export const skills =
 [ {
   Javascript: "Javascript", Python: "Python", HTML: "HTML", CSS: "CSS", React: "React", Node: "Node", Django: "Django", Tailwind: "Tailwind", Bootstrap: "Bootstrap", Materialize: "Materialize", Git: "Git", Github: "Github", Heroku: "Heroku", Netlify: "Netlify"
 }
+]
+
+export const navbar = [
+  {
+    title: "Past Work",
+    link: "#projects"
+  },
+  {
+    title: "Skills",
+    link: "#skills"
+  },
+  {
+    title: "Testimonials",
+    link: "#testimonials"
+  },
+  {
+    title: "Hire Me",
+    link: "#contact"
+  },
 ]
