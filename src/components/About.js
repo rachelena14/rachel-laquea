@@ -1,6 +1,9 @@
 
+'use client'
+
 import React from "react";
 import { about } from "../data";
+
 
 export default function About() {
   return (

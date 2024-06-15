@@ -1,3 +1,5 @@
+'use client'
+
 export const contact = [
   {
   github: "github", linkedin: "linkedin", facebook: "facebook", instagram: "instagram"
