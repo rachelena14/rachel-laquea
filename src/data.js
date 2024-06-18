@@ -2,7 +2,6 @@
 
 import React from 'react';
 
-
 export const about = [ {  
   title: "Hi, I'm Reed.",
   subtitle: "I love to build amazing apps.",          
@@ -64,9 +63,6 @@ export const testimonials = [
     image: "https://randomuser.me/api/portraits"
   },
 ]
-
-
-export const Skills = () => {
   const skills = {
   Javascript: true,
   Python: true,
@@ -83,37 +79,39 @@ export const Skills = () => {
   Heroku: true, 
   Netlify: true
   }
-return skills;
+
+export const skillsArray = Object.keys(skills);
+export const Skills = () => {
+  return skills;
 };
 
-export const SkillComponent = () => { 
+export const SkillComponent = () => {
   const skills = Skills();
 
 return (
-  <div>
-    {Object.keys(skills).map((skill, index) => (
-      <div key={index}>{skill}</div>
-    ))}
+  <div> 
+  {Object.keys(skills).map((skill, index) => (
+    <div key={index}>{skill}</div>
+  ))}
   </div>
 );
-
-
 }
-export const navbar = [
-  {
-    title: "Past Work",
-    link: "#projects"
-  },
-  {
-    title: "Skills",
-    link: "#skills"
-  },
-  {
-    title: "Testimonials",
-    link: "#testimonials"
-  },
-  {
-    title: "Hire Me",
-    link: "#contact"
-  },
-]
+
+// export const navbar = [
+//   {
+//     title: "Past Work",
+//     link: "#projects"
+//   },
+//   {
+//     title: "Skills",
+//     link: "#skills"
+//   },
+//   {
+//     title: "Testimonials",
+//     link: "#testimonials"
+//   },
+//   {
+//     title: "Hire Me",
+//     link: "#contact"
+//   },
+// ];
