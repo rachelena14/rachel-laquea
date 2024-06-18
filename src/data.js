@@ -1,4 +1,7 @@
-'use client'
+
+
+import React from 'react';
+
 
 export const about = [ {  
   title: "Hi, I'm Reed.",
@@ -62,12 +65,40 @@ export const testimonials = [
   },
 ]
 
-export const skills = 
-[ {
-  Javascript: "Javascript", Python: "Python", HTML: "HTML", CSS: "CSS", React: "React", Node: "Node", Django: "Django", Tailwind: "Tailwind", Bootstrap: "Bootstrap", Materialize: "Materialize", Git: "Git", Github: "Github", Heroku: "Heroku", Netlify: "Netlify"
-}
-]
 
+export const Skills = () => {
+  const skills = {
+  Javascript: true,
+  Python: true,
+  HTML: true, 
+  CSS: true, 
+  React: true,
+  Node: true, 
+  Django: true, 
+  Tailwind: true, 
+  Bootstrap: true, 
+  Materialize: true, 
+  Git: true, 
+  Github: true, 
+  Heroku: true, 
+  Netlify: true
+  }
+return skills;
+};
+
+export const SkillComponent = () => { 
+  const skills = Skills();
+
+return (
+  <div>
+    {Object.keys(skills).map((skill, index) => (
+      <div key={index}>{skill}</div>
+    ))}
+  </div>
+);
+
+
+}
 export const navbar = [
   {
     title: "Past Work",

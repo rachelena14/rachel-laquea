@@ -1,5 +1,5 @@
 import React from "react";
-import { contact } from "../data";
+// import { contact } from "../data";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
