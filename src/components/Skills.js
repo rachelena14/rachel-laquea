@@ -5,7 +5,7 @@ import React from "react";
 import { Skills as skillsInfo } from "../data";
 
 export default function Skills() {
-  const skills = skillsInfo;
+  const skills = Array.isArray(skillsInfo) ? skillsInfo : [];
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
