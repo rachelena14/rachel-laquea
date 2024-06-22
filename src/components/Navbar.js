@@ -1,7 +1,5 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
-// import { navbar } from "../data";
-
+import { ArrowRightIcon } from "@heroicons/react/solid";
 
 export default function Navbar() {
   return (

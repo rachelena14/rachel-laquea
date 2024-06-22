@@ -1,7 +1,6 @@
-// src/components/Skills.js
 
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
+import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import { Skills as skillsInfo } from "../data";
 
 export default function Skills() {

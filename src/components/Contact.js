@@ -1,5 +1,4 @@
 import React from "react";
-// import { contact } from "../data";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
@@ -64,10 +63,9 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form
-            netlify
-            name="contact"
-            onSubmit={handleSubmit}
+          <form data-netlify="true"
+          name="contact" 
+          onSubmit={handleSubmit}
             className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
               Hire Me
@@ -80,6 +78,7 @@ export default function Contact() {
               <label htmlFor="name" className="leading-7 text-sm text-gray-400">
                 Name
               </label>
+            
               <input
                 type="text"
                 id="name"
