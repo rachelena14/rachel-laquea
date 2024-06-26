@@ -4,7 +4,9 @@ import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from 'react-dom/client';
 
+require('dotenv').config();
 
+console.log(process.env.DATABASE_URL); // Outputs: mongodb://localhost/myapp
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
