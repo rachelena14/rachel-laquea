@@ -1,13 +1,13 @@
 import React , { useEffect } from "react";
 import './App.css';
-import "./index.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import "../src/index.css";
+import About from "./components/About.js";
+import Contact from "./components/Contact.js";
+import Navbar from "./components/Navbar.js";
+import Projects from "./components/Projects.js";
+import Skills from "./components/Skills.js";
 // import Testimonials from "./components/Testimonials";
-require('dotenv').config();
+
 
 export default function App() {
   useEffect(() => {
