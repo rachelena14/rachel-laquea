@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,3 +17,19 @@ code {
     monospace;
 }
 
+
+
+.intro {
+  background: url('./images/background.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.content {
+  height: 2000px;
+  padding: 100px 0;
+  background-color: #aaa;
+}
+.content h2, .content p {
+  width: 60%;
+  margin: 0 auto;
+}

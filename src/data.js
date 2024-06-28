@@ -97,21 +97,21 @@ return (
 );
 }
 
-// export const navbar = [
-//   {
-//     title: "Past Work",
-//     link: "#projects"
-//   },
-//   {
-//     title: "Skills",
-//     link: "#skills"
-//   },
-//   {
-//     title: "Testimonials",
-//     link: "#testimonials"
-//   },
-//   {
-//     title: "Hire Me",
-//     link: "#contact"
-//   },
-// ];
+export const navbar = [
+  {
+    title: "Past Work",
+    link: "#projects"
+  },
+  {
+    title: "Skills",
+    link: "#skills"
+  },
+  {
+    title: "Testimonials",
+    link: "#testimonials"
+  },
+  {
+    title: "Hire Me",
+    link: "#contact"
+  },
+];
