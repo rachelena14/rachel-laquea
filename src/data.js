@@ -3,7 +3,7 @@
 import React from 'react';
 
 export const about = [ {  
-  title: "Hi, I'm Reed.",
+  title: "Hi, I'm Rachel",
   subtitle: "I love to build amazing apps.",          
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?"
   }
@@ -24,36 +24,40 @@ export const contact = [
 
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Frequencies",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "This is a full-stack React application that serves as an interactive sound therapy tool for both patient and provider use in music therapy practices. More now than ever, stressors, toxins and negative environmental influences are impacting humans’ quality of life. In order to combat this and provide vibrational frequencies that promote health and wellness, we created an application that is designed to help people heal through sound. The application is a full MERN stack application, using MongDB, Apollo Express Server, React, & Node.js.",
+    image: "PICTURE(S) OF PROJECT",
+    link: "DEPLOYED PROJECT LINK HERE",
   },
   {
-    title: "React Tracks",
+    title: "Parks and Pages",
     subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "This application is a search tool for the avid hiker and reader. The user can search for their state in the U.S., and a list of national and/or state parks appears on the next page, with a map showing the park locations. Once they find a park they want to check out, the application uses the Google Books API to show book results that are related to the park. Then, the user can save the books they are interested in to a favorite books list, displayed on the favorite books page.",
+    image: "PICTURE(S) OF PROJECT",
+    link: "DEPLOYED PROJECT LINK HERE",
   },
   {
-    title: "DevChat",
+    title: "Cat Fact Quiz",
     subtitle: "React and Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+      "This is a quiz that asks the user five questions about cats. When the start button is clicked, the timer starts at 75 seconds and counts down.
+
+Every time a question is answered incorrectly, the timer subtracts 10 seconds from the time which is the user's score at the end of the game.
+
+When the timer runs out, or all of the questions have been answered, the user is prompted to enter her initials and the high scores are saved in another page using local storage.",
+    image: "PICTURE(S) OF PROJECT",
+    link: "DEPLOYED PROJECT LINK HERE",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Botanica API",
+    subtitle: "Herbal nutrition search tool",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "This is a full MERN Stack application, that utilizes React.js, Express, MongoDB for the database and the herb",
+    image: "PICTURE(S) OF PROJECT",
+    link: "DEPLOYED PROJECT LINK HERE",
   },
 ];
 
