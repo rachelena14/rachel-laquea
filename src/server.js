@@ -5,6 +5,14 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(express.json()); // For parsing application/json
 app.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded
+
+app.use((req, res, next) => {
+  if (req.path.endsWith('.js')) {
+    res.type('application/javascript');
+  }
+  next();
+});
+
 app.use(express.static('public')); // Serve static files from 'public' directory
 
 // Routes

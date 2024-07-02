@@ -1,0 +1,21 @@
+{
+    "presets": [
+      "@babel/preset-env",    // Handles modern JavaScript syntax
+      "@babel/preset-react"   // Transforms JSX syntax into JavaScript
+      // Add "@babel/preset-typescript" if using TypeScript
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties", // Enables class properties syntax
+      "@babel/plugin-transform-runtime" // Provides runtime support for modern syntax
+      // Add more plugins as needed
+    ],
+    "env": {
+      "development": {
+        "plugins": [
+          "react-refresh/babel" // Enables React hot reloading in development
+        ]
+      }
+      // Add more environment configurations as needed
+    }
+  }
+  

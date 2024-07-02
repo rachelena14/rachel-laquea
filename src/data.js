@@ -28,36 +28,32 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "This is a full-stack React application that serves as an interactive sound therapy tool for both patient and provider use in music therapy practices. More now than ever, stressors, toxins and negative environmental influences are impacting humans’ quality of life. In order to combat this and provide vibrational frequencies that promote health and wellness, we created an application that is designed to help people heal through sound. The application is a full MERN stack application, using MongDB, Apollo Express Server, React, & Node.js.",
-    image: "PICTURE(S) OF PROJECT",
-    link: "DEPLOYED PROJECT LINK HERE",
+    image: "1PICTURE(S) OF PROJECT",
+    link: "1DEPLOYED PROJECT LINK HERE",
   },
   {
     title: "Parks and Pages",
     subtitle: "React and Python",
     description:
       "This application is a search tool for the avid hiker and reader. The user can search for their state in the U.S., and a list of national and/or state parks appears on the next page, with a map showing the park locations. Once they find a park they want to check out, the application uses the Google Books API to show book results that are related to the park. Then, the user can save the books they are interested in to a favorite books list, displayed on the favorite books page.",
-    image: "PICTURE(S) OF PROJECT",
-    link: "DEPLOYED PROJECT LINK HERE",
+    image: "2PICTURE(S) OF PROJECT",
+    link: "2DEPLOYED PROJECT LINK HERE",
   },
   {
     title: "Cat Fact Quiz",
     subtitle: "React and Firebase",
     description:
-      "This is a quiz that asks the user five questions about cats. When the start button is clicked, the timer starts at 75 seconds and counts down.
-
-Every time a question is answered incorrectly, the timer subtracts 10 seconds from the time which is the user's score at the end of the game.
-
-When the timer runs out, or all of the questions have been answered, the user is prompted to enter her initials and the high scores are saved in another page using local storage.",
-    image: "PICTURE(S) OF PROJECT",
-    link: "DEPLOYED PROJECT LINK HERE",
+      "This is a quiz that asks the user five questions about cats. When the start button is clicked, the timer starts at 75 seconds and counts down. Every time a question is answered incorrectly, the timer subtracts 10 seconds from the time which is the user's score at the end of the game.When the timer runs out, or all of the questions have been answered, the user is prompted to enter her initials and the high scores are saved in another page using local storage.",
+    image: "3PICTURE(S) OF PROJECT",
+    link: "3DEPLOYED PROJECT LINK HERE",
   },
   {
     title: "Botanica API",
     subtitle: "Herbal nutrition search tool",
     description:
       "This is a full MERN Stack application, that utilizes React.js, Express, MongoDB for the database and the herb",
-    image: "PICTURE(S) OF PROJECT",
-    link: "DEPLOYED PROJECT LINK HERE",
+    image: "4PICTURE(S) OF PROJECT",
+    link: "4DEPLOYED PROJECT LINK HERE",
   },
 ];
 
