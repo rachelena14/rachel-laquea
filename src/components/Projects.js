@@ -36,7 +36,9 @@ export default function Projects() {
                       <h1 className="title-font text-lg font-medium text-white mb-3">
                         {project.title}
                       </h1>
-                      <p className="leading-relaxed">{project.description}</p>
+                      <a href={project.image} target="_blank" rel="noopener noreferrer" className="leading-relaxed"></a>
+                      <p className="leading-relaxed">
+                        {project.description}</p>
                     </div>
                   </div>
                 </a>

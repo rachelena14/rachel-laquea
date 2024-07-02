@@ -1,6 +1,8 @@
 
 
 import React from 'react';
+import inMarketImage from './images/InMarket.png';
+import parkImage from './images/Parks&Pages.png';
 
 export const about = [ {  
   title: "Hi, I'm Rachel",
@@ -36,8 +38,8 @@ export const projects = [
     subtitle: "React and Python",
     description:
       "This application is a search tool for the avid hiker and reader. The user can search for their state in the U.S., and a list of national and/or state parks appears on the next page, with a map showing the park locations. Once they find a park they want to check out, the application uses the Google Books API to show book results that are related to the park. Then, the user can save the books they are interested in to a favorite books list, displayed on the favorite books page.",
-    image: "2PICTURE(S) OF PROJECT",
-    link: "2DEPLOYED PROJECT LINK HERE",
+    image: parkImage,
+    link: parkImage,
   },
   {
     title: "Cat Fact Quiz",
@@ -54,6 +56,14 @@ export const projects = [
       "This is a full MERN Stack application, that utilizes React.js, Express, MongoDB for the database and the herb",
     image: "4PICTURE(S) OF PROJECT",
     link: "4DEPLOYED PROJECT LINK HERE",
+  },
+  {
+    title: "InMarket Real Estate App",
+    subtitle: "Real estate search tool",
+    description:
+      "This is a full MERN Stack application, that utilizes React.js, Express, MongoDB for the database and the herb",
+    image: inMarketImage,
+    link: inMarketImage,
   },
 ];
 
