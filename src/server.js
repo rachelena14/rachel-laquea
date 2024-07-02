@@ -2,18 +2,24 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
+function setHeaders(res, path) {
+    if (path.endsWith('.js')) {
+      res.type('application/javascript');
+    }
+  }
+  
+app.use(express.static('public', { setHeaders: setHeaders })); // Serve static files from 'public' directory
+
 app.use(express.json()); // For parsing application/json
 app.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded
 
+// Middleware
 app.use((req, res, next) => {
   if (req.path.endsWith('.js')) {
     res.type('application/javascript');
   }
   next();
 });
-
-app.use(express.static('public')); // Serve static files from 'public' directory
 
 // Routes
 app.get('/', (req, res) => {
